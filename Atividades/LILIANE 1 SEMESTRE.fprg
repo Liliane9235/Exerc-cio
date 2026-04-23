@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LILIANE 1 SEMESTRE"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-25 10:57:39 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDItMjU7IjA5OjEyOjE5ICI7MjY0Mg=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDItMjU7IjEwOjU3OjM5ICI7MjsyNzU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="totalvendido, comis&#227;o, sBruto, sBase" type="Integer" array="False" size=""/>
+            <output expression="&quot;informe o total vendido&quot;" newline="True"/>
+            <input variable="totalvendido"/>
+            <output expression="&quot;Entre com o Salario  Base&quot;" newline="True"/>
+            <input variable="sBase"/>
+            <assign variable="Comis&#227;o" expression="Totalvendido*0.1"/>
+            <output expression="&quot;Comis&#227;o do m&#234;s de abril foi:&quot;&amp;COMIS&#195;O" newline="True"/>
+            <output expression="&quot;O sal&#225;rio Bruto do m&#234;s de abril foi:&quot;&amp;&#13;&#10;SALARIOBRUTO" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

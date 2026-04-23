@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exemplo ler  tabuada 17-03-2026"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 10:38:05 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMTc7IjA5OjA0OjM4ICI7MjY0Ng=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMTc7IjEwOjM4OjA1ICI7NDsyNzUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tabuada, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual tabuada deseja calcular&quot;" newline="True"/>
+            <for variable="i" start="1" end="10" direction="inc" step="tabuada">
+                <output expression="tabuada&amp;&quot;x&quot;&amp;i&amp;&quot;=&quot;&amp;i* tabuada" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LILIANE 1 SEMESTRE Exerc&#237;cio 04 - 2026-03-03"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-03 11:23:29 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMDM7IjExOjAwOjIzICI7MjYyNA=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMDM7IjExOjIzOjI5ICI7MTsyNzQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ENTRADA" type="Real" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <output expression="&quot;crescente ou descrecente&quot;" newline="True"/>
+            <output expression="A%B==0" newline="True"/>
+            <if expression="A%B==0">
+                <then>
+                    <output expression="MULTIPLOS" newline="True"/>
+                </then>
+                <else>
+                    <output expression="(A%B==0)" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

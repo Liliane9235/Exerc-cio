@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exemplo estrutura para 17-03-2026"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 09:04:24 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMTc7IjA4OjIwOjEzICI7MjYzNg=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMTc7IjA5OjA0OjI0ICI7MTsyNzQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mediaAluno, mediaTurma, soma" type="Real" array="False" size=""/>
+            <declare name="qtdAlunos" type="Real" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <output expression="&quot;Digite a nota do aluno &quot;&amp; i" newline="True"/>
+            <input variable="mediaAlunos"/>
+            <assign variable="mediaTurma" expression="soma/qtdAlunos"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1"/>
+            <while expression="&quot;1&lt;-0 at&#233; qtdAlunos&quot;">
+                <output expression="&quot;entre com a &quot;&amp; (1+1)&amp;&quot;a&quot;" newline="True"/>
+                <input variable="mediaAluno"/>
+                <assign variable="soma" expression="mediaAluno"/>
+            </while>
+            <assign variable="soma" expression="0"/>
+            <output expression="&quot;A media da turma&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LILIANE 1 SEMESTRE exerc&#237;cio 2 2026-03-03"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-03 10:43:19 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMDM7IjEwOjIxOjA5ICI7MjYzMA=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMDM7IjEwOjQzOjE5ICI7MTsyNzQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Entrada" type="Integer" array="False" size=""/>
+            <output expression="&quot;escrever o valor da entrada&quot;" newline="True"/>
+            <input variable="entrada"/>
+            <output expression="&quot;escrever o valor da entrada&quot;" newline="True"/>
+            <input variable="entrada"/>
+            <output expression="&quot;escrever o valor da entrada&quot;" newline="True"/>
+            <input variable="entrada"/>
+            <if expression="&quot;&lt; 0&quot;">
+                <then>
+                    <output expression="&quot;n&#227;o negativo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;negativo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

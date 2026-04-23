@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exerc&#237;cio vetor 07-04-2026"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-07 09:08:21 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDc7IjA4OjIxOjE5ICI7MjY0Mw=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDc7IjA5OjA4OjIxICI7MTsyNzUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vetor" type="Integer" array="True" size="10"/>
+            <declare name="i, quantidade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quantos n&#250;meros ser&#227;o informados?&quot;" newline="True"/>
+            <input variable="quantidade"/>
+            <for variable="i" start="0" end="quantidade-1" direction="inc" step="1">
+                <output expression="&quot;Entre com o n&#250;mero &quot;&amp;&quot;(i+1)&amp; n&#250;mero&quot;" newline="True"/>
+                <input variable="vetor[1]"/>
+            </for>
+            <output expression="&quot;N&#250;meros dogitados no vetor&quot;" newline="True"/>
+            <for variable="i" start="0" end="quantidade-1" direction="inc" step="1">
+                <output expression="vetor[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

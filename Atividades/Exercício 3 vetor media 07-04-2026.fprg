@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exerc&#237;cio 3 vetor media 07-04-2026"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-07 10:26:39 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDc7IjA5OjE3OjMzICI7MjY0NQ=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDc7IjEwOjI2OjM5ICI7MTsyNzUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="vetor" type="Integer" array="True" size="10"/>
+            <output expression="&quot;Quantidades de n&#250;meros voc&#234; vai digitar?&quot;" newline="True"/>
+            <input variable="n"/>
+            <declare name="vet" type="Integer" array="True" size="n"/>
+            <output expression="&quot;N&#218;MEROS NEGATIVOS&quot;" newline="True"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <output expression="&quot;Entre com o&quot; &amp;(i+1)&amp;&quot;n&#250;mero&quot;" newline="True"/>
+                <input variable="vet[i]"/>
+            </for>
+            <output expression="&quot;Valores =&quot;" newline="True"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <output expression="vet[i]" newline="True"/>
+            </for>
+            <assign variable="soma" expression="0"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <assign variable="soma" expression="soma+vet[i]"/>
+            </for>
+            <output expression="&quot;SOMA &quot; &amp;soma" newline="True"/>
+            <assign variable="media" expression="soma/n"/>
+            <output expression="&quot;M&#201;DIA &quot;&amp;media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

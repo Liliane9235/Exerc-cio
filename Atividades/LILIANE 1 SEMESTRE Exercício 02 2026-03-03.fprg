@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LILIANE 1 SEMESTRE Exerc&#237;cio"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-03 10:19:04 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMDM7IjEwOjAzOjEzICI7MjYyNQ=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMDM7IjEwOjE5OjA0ICI7MTsyNzQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, ma" type="Real" array="False" size=""/>
+            <output expression="&quot;entre com a nota n1&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;entre com a nota n2&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;entre com a nota n3&quot;" newline="True"/>
+            <input variable="n4"/>
+            <output expression="&quot;entre com a nota n4&quot;" newline="True"/>
+            <assign variable="ma" expression="(n1+n2+n3+n4)/4"/>
+            <if expression="ma&gt;=6">
+                <then>
+                    <output expression="(&quot;Aluno aprovado com a m&#233;dia &quot;&amp;ma)" newline="True"/>
+                </then>
+                <else>
+                    <output expression="(&quot;aluno reprovado com media &quot;&amp;ma)" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

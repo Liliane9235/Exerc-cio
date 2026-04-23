@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exerc&#237;cio 10-03-2026"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-10 09:19:52 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMTA7IjA4OjI4OjU3ICI7MjY0NQ=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMTA7IjA5OjE5OjUyICI7MTsyNzQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, media" type="Real" array="False" size=""/>
+            <declare name="numeroNotas, contador" type="Integer" array="False" size=""/>
+            <output expression="&quot;escrever quatros notas notas ser&#227;o informadas&quot;" newline="True"/>
+            <input variable="numeroNotas"/>
+            <assign variable="contador" expression="0"/>
+            <assign variable="media" expression="0"/>
+            <assign variable="media" expression="0"/>
+            <while expression="contador &lt;- contador + 1">
+                <output expression="&quot;entre com a nota &quot;&amp; contador &amp;&quot;nota&quot;" newline="True"/>
+                <input variable="media"/>
+                <assign variable="media" expression="7"/>
+                <assign variable="contador" expression="1"/>
+            </while>
+            <assign variable="media" expression="numeroNotas"/>
+            <if expression="media &gt;=7">
+                <then>
+                    <output expression="&quot;parab&#233;ns aluno aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;aluno reprovado estude mas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

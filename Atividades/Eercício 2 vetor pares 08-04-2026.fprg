@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Eerc&#237;cio 2 vetor pares 08-04-2026"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-08 11:14:50 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDg7IjEwOjU2OjE3ICI7MjY0Mw=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDg7IjExOjE0OjUwICI7MTsyNzQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quantos n&#250;meros vai digitar&quot;" newline="True"/>
+            <input variable="n"/>
+            <declare name="vetor" type="Integer" array="True" size="n"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <output expression="&quot;Digite o &quot;&amp;(i+1)&amp;&quot;a n&#250;mero&quot;" newline="True"/>
+                <input variable="vetor[i]"/>
+            </for>
+            <assign variable="qtdpares" expression="0"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <if expression="vetor[i]%2==0">
+                    <then>
+                        <assign variable="qtdpares" expression="qtdpares+1"/>
+                        <output expression="vetor[i]" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Quantidade de n&#250;meros pares:&quot;&amp; qtdpares" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

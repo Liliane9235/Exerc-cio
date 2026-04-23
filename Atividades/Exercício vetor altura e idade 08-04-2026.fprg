@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exerc&#237;cio vetor altura e idade 08-04-2026"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-08 09:31:34 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDg7IjA4OjIzOjQ2ICI7MjY0Ng=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDg7IjA5OjMxOjM0ICI7MjsyNzUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, cont" type="Integer" array="False" size=""/>
+            <declare name="soma, media, porcentagem" type="Real" array="False" size=""/>
+            <output expression="&quot;Quantas pessoas ser&#227;o digitadas?&quot;" newline="True"/>
+            <input variable="n"/>
+            <declare name="nomes" type="String" array="True" size="n"/>
+            <declare name="idade" type="Integer" array="True" size="n"/>
+            <declare name="altura" type="Real" array="True" size="n"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <output expression="&quot;Dados da &quot;&amp;(i+1)&amp;&quot;a pessoas&quot;" newline="True"/>
+                <output expression="&quot;Nome&quot;" newline="True"/>
+                <input variable="nomes[1]"/>
+                <output expression="&quot;idade&quot;" newline="True"/>
+                <input variable="idade[i]"/>
+                <output expression="&quot;altura&quot;" newline="True"/>
+                <input variable="altura[i]"/>
+            </for>
+            <assign variable="soma" expression="0"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <assign variable="soma" expression="soma+altura[i]"/>
+            </for>
+            <assign variable="media" expression="soma/n"/>
+            <assign variable="cont" expression="0"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <if expression="idade[i]&lt;16">
+                    <then>
+                        <assign variable="cont" expression="cont+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <assign variable="porcentagem" expression="cont*100/n"/>
+            <output expression="&quot;Pessoas cm menos de 16 anos: &quot;&amp; porcentagem&amp;&quot;%&quot;" newline="True"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <if expression="idade[i]&lt;16">
+                    <then>
+                        <output expression="nome[i]" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

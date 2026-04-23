@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LILIANE 1 SEMESTRE Exerc&#237;cio 03- 2026-03-03"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-03 10:59:05 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMDM7IjEwOjQ4OjM4ICI7MjY0MQ=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDMtMDM7IjEwOjU5OjA1ICI7MTsyNzQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Real" array="False" size=""/>
+            <output expression="&quot;entre com numero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero &gt;=0">
+                <then>
+                    <output expression="&quot;numero informado &#233; negatico&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;numero informado &#233; positivo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

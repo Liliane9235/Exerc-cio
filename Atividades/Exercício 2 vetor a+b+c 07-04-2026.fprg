@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exerc&#237;cio 2 vetor a+b+c 07-04-2026"/>
+        <attribute name="authors" value="GERAL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-07 09:17:28 "/>
+        <attribute name="created" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDc7IjA5OjA4OjM2ICI7MjY0OA=="/>
+        <attribute name="edited" value="R0VSQUw7REVTS1RPUC05QUZTVEhFOzIwMjYtMDQtMDc7IjA5OjE3OjI4ICI7MTsyNzU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <declare name="vetro" type="Integer" array="True" size="7"/>
+            <assign variable="a" expression="10"/>
+            <assign variable="b" expression="20"/>
+            <assign variable="c" expression="(a+b)/2"/>
+            <assign variable="c" expression="c-40"/>
+            <declare name="vetor" type="Integer" array="True" size="4&lt;-a+b+c"/>
+        </body>
+    </function>
+</flowgorithm>
